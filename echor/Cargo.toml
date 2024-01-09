@@ -1,0 +1,12 @@
+[package]
+name = "echor"
+version = "0.1.0"
+edition = "2021"
+description = "An implementation of echo in Rust"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+assert_cmd = "2.0.12"
+clap = { version = "4.4.14", features = ["derive"] }
+predicates = "3.0.4"
